@@ -1,0 +1,12 @@
+import { Component } from '@angular/core';
+import { PageTitle } from '../../../../components/page-title/page-title';
+import { FaqBanner } from './components/faq-banner/faq-banner';
+import { PopularQuestion } from './components/popular-question/popular-question';
+
+@Component({
+  selector: 'app-faqs',
+  imports: [PageTitle, FaqBanner, PopularQuestion],
+  templateUrl: './faqs.html',
+  styles: ``,
+})
+export class Faqs {}
