@@ -22,6 +22,7 @@
             "inlineStyleLanguage": "css",
             "assets": [
               "src/assets",
+              "src/_redirects",
               {
                 "glob": "**/*",
                 "input": "src/assets"
