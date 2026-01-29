@@ -64,7 +64,7 @@ export class EmailInbox {
   {
     id: "checkbox-6",
     name: "Jose White",
-    message: "I just requested to connect -Paula Keenan, respond to Meet’s now.",
+    message: "I just requested to connect -Vishv K, respond to Meet’s now.",
     time: "01:19 PM",
     isRead: true
   },
@@ -134,7 +134,7 @@ export class EmailInbox {
   {
     id: "checkbox-16",
     name: "Jose White",
-    message: "I just requested to connect -Paula Keenan, respond to Meet’s now.",
+    message: "I just requested to connect -Vishv K, respond to Meet’s now.",
     time: "01:19 PM",
     isRead: false
   },

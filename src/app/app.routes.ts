@@ -34,13 +34,6 @@ export const routes: Routes = [
   {
     path: '',
     loadChildren: () =>
-      import('./views/landing/landing.routes').then(
-        (mod) => mod.LANDING_ROUTES,
-      ),
-  },
-  {
-    path: '',
-    loadChildren: () =>
       import('./views/extra/boxed-auth/boxed-auth.route').then(
         (mod) => mod.BOXED_AUTH_ROUTES,
       ),

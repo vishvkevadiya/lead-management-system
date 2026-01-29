@@ -36,25 +36,6 @@ export class SidebarMenu {
       ],
     },
     {
-      type: 'accordion',
-      label: 'Landing Page',
-      icon: 'lucidePictureInPicture2',
-      children: [
-        {
-          type: 'item',
-          label: 'One Page',
-          link: '/landing/onepage',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Product',
-          link: '/landing/product',
-          target: '_blank',
-        },
-      ],
-    },
-    {
       type: 'title',
       label: 'Apps',
     },

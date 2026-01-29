@@ -1,8 +1,8 @@
 import { Component, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { NgIcon } from "@ng-icons/core";
-import { SallersModal } from "./components/sallers-modal/sallers-modal";
-import { Pagination } from "../../../components/pagination/pagination";
-import { PageTitle } from "../../../components/page-title/page-title";
+import { NgIcon } from '@ng-icons/core';
+import { SallersModal } from './components/sallers-modal/sallers-modal';
+import { Pagination } from '../../../components/pagination/pagination';
+import { PageTitle } from '../../../components/page-title/page-title';
 import { RouterLink } from '@angular/router';
 
 type CardItem = {
@@ -14,21 +14,20 @@ type CardItem = {
     label: string;
     value: string;
   }[];
-}
+};
 
 @Component({
   selector: 'app-sallers',
   imports: [NgIcon, SallersModal, Pagination, PageTitle, RouterLink],
   templateUrl: './sallers.html',
   styles: ``,
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
 export class Sallers {
-
   cardsData: CardItem[] = [
     {
       name: 'Themesdesign',
-      owner: 'Paula Keenan',
+      owner: 'Vishv K',
       icon: 'logos:google-adwords',
       heartFilled: true,
       stats: [
@@ -115,5 +114,4 @@ export class Sallers {
       ],
     },
   ];
-
 }
