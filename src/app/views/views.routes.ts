@@ -29,9 +29,5 @@ export const VIEWS_ROUTES: Routes = [
     {
         path: '',
         loadChildren: () => import('./extra/extra.routes').then((mod) => mod.EXTRA_ROUTES)
-    },
-     {
-        path: '',
-        loadChildren: () => import('./layouts/layout.routes').then((mod) => mod.LAYOUT_ROUTES)
-    },
+    }
 ]

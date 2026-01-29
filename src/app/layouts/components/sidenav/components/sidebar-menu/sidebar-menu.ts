@@ -234,55 +234,6 @@ export class SidebarMenu {
         },
       ],
     },
-    {
-      type: 'accordion',
-      label: 'Layouts',
-      icon: 'lucideLayoutPanelLeft',
-      children: [
-        {
-          type: 'item',
-          label: 'Hover Sidenav',
-          link: '/layouts/hover-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Hover Active Sidenav',
-          link: '/layouts/hover-active-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Small Sidenav',
-          link: '/layouts/small-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Compact Sidenav',
-          link: '/layouts/compact-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Offcanvas Sidenav',
-          link: '/layouts/offcanvas-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Hidden Sidenav',
-          link: '/layouts/hidden-sidenav',
-          target: '_blank',
-        },
-        {
-          type: 'item',
-          label: 'Dark Sidenav',
-          link: '/layouts/dark-sidenav',
-          target: '_blank',
-        },
-      ],
-    },
   ];
 
   constructor(private router: Router) {}
