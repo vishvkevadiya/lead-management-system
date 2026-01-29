@@ -2,7 +2,7 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "tailwink",
+      "name": "lms",
       "dependencies": {
         "@angular/common": "^20.1.0",
         "@angular/compiler": "^20.1.0",

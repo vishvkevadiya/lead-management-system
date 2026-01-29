@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "tailwick": {
+    "lms": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -77,10 +77,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "tailwick:build:production"
+              "buildTarget": "lms:build:production"
             },
             "development": {
-              "buildTarget": "tailwick:build:development"
+              "buildTarget": "lms:build:development"
             }
           },
           "defaultConfiguration": "development"
